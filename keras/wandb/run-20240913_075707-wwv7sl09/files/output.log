@@ -1,0 +1,1287 @@
+[34m[1mwandb[0m: [33mWARNING[0m WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+[34m[1mwandb[0m: [33mWARNING[0m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Model: "model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+input_2 (InputLayer)         [(None, 11)]              0
+_________________________________________________________________
+dense_2 (Dense)              (None, 8)                 96
+_________________________________________________________________
+dense_3 (Dense)              (None, 7)                 63
+=================================================================
+Total params: 159
+Trainable params: 159
+Non-trainable params: 0
+_________________________________________________________________
+
+Search: Running Trial #1
+
+Value             |Best Value So Far |Hyperparameter
+2                 |2                 |mlp_layers
+8                 |8                 |units_0
+False             |False             |dropout
+
+Epoch 1/10
+ 1/98 [..............................] - ETA: 35s - loss: 2.0420 - accuracy: 0.3750WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0013s vs `on_train_batch_end` time: 0.0021s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0013s vs `on_train_batch_end` time: 0.0021s). Check your callbacks.
+98/98 [==============================] - 1s 4ms/step - loss: 1.7784 - accuracy: 0.4346 - val_loss: 1.6064 - val_accuracy: 0.4554
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.5097 - accuracy: 0.4553 - val_loss: 1.3930 - val_accuracy: 0.4554
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.3572 - accuracy: 0.4541 - val_loss: 1.2754 - val_accuracy: 0.4541
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2801 - accuracy: 0.4534 - val_loss: 1.2144 - val_accuracy: 0.4643
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2410 - accuracy: 0.4681 - val_loss: 1.1820 - val_accuracy: 0.4911
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2166 - accuracy: 0.4914 - val_loss: 1.1600 - val_accuracy: 0.5230
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1947 - accuracy: 0.5057 - val_loss: 1.1371 - val_accuracy: 0.5306
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1757 - accuracy: 0.5147 - val_loss: 1.1191 - val_accuracy: 0.5344
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1608 - accuracy: 0.5124 - val_loss: 1.1065 - val_accuracy: 0.5357
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1502 - accuracy: 0.5182 - val_loss: 1.0984 - val_accuracy: 0.5395
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 1 Complete [00h 00m 15s]
+val_accuracy: 0.5395408272743225
+
+Best val_accuracy So Far: 0.5395408272743225
+Total elapsed time: 00h 00m 15s
+
+Search: Running Trial #2
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+24                |8                 |units_0
+True              |False             |dropout
+40                |8                 |units_1
+
+Epoch 1/10
+ 1/98 [..............................] - ETA: 39s - loss: 2.1440 - accuracy: 0.0938WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0011s vs `on_train_batch_end` time: 0.0015s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0011s vs `on_train_batch_end` time: 0.0015s). Check your callbacks.
+98/98 [==============================] - 1s 4ms/step - loss: 1.8574 - accuracy: 0.2827 - val_loss: 1.5504 - val_accuracy: 0.4413
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.4742 - accuracy: 0.4438 - val_loss: 1.3116 - val_accuracy: 0.4987
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3189 - accuracy: 0.4885 - val_loss: 1.2049 - val_accuracy: 0.5191
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2549 - accuracy: 0.5022 - val_loss: 1.1477 - val_accuracy: 0.5421
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2219 - accuracy: 0.5086 - val_loss: 1.1175 - val_accuracy: 0.5523
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1826 - accuracy: 0.5166 - val_loss: 1.0947 - val_accuracy: 0.5446
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1662 - accuracy: 0.5191 - val_loss: 1.0795 - val_accuracy: 0.5383
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1496 - accuracy: 0.5274 - val_loss: 1.0698 - val_accuracy: 0.5485
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1443 - accuracy: 0.5392 - val_loss: 1.0606 - val_accuracy: 0.5548
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1296 - accuracy: 0.5383 - val_loss: 1.0558 - val_accuracy: 0.5523
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 2 Complete [00h 00m 13s]
+val_accuracy: 0.5548469424247742
+
+Best val_accuracy So Far: 0.5548469424247742
+Total elapsed time: 00h 00m 28s
+
+Search: Running Trial #3
+
+Value             |Best Value So Far |Hyperparameter
+1                 |1                 |mlp_layers
+8                 |24                |units_0
+True              |True              |dropout
+32                |40                |units_1
+
+Epoch 1/10
+ 1/98 [..............................] - ETA: 33s - loss: 2.4691 - accuracy: 0.1562WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0011s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0011s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+98/98 [==============================] - 1s 3ms/step - loss: 2.2786 - accuracy: 0.1222 - val_loss: 1.9673 - val_accuracy: 0.1964
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.8533 - accuracy: 0.2374 - val_loss: 1.6585 - val_accuracy: 0.3673
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.6213 - accuracy: 0.3692 - val_loss: 1.4830 - val_accuracy: 0.4541
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.4965 - accuracy: 0.4225 - val_loss: 1.3705 - val_accuracy: 0.4860
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.4106 - accuracy: 0.4732 - val_loss: 1.2965 - val_accuracy: 0.5102
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3377 - accuracy: 0.4930 - val_loss: 1.2445 - val_accuracy: 0.5179
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3146 - accuracy: 0.4907 - val_loss: 1.2048 - val_accuracy: 0.5242
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2822 - accuracy: 0.5057 - val_loss: 1.1747 - val_accuracy: 0.5281
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2612 - accuracy: 0.5032 - val_loss: 1.1509 - val_accuracy: 0.5332
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2426 - accuracy: 0.5089 - val_loss: 1.1300 - val_accuracy: 0.5344
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 3 Complete [00h 00m 13s]
+val_accuracy: 0.5344387888908386
+
+Best val_accuracy So Far: 0.5548469424247742
+Total elapsed time: 00h 00m 41s
+
+Search: Running Trial #4
+
+Value             |Best Value So Far |Hyperparameter
+1                 |1                 |mlp_layers
+56                |24                |units_0
+True              |True              |dropout
+64                |40                |units_1
+
+Epoch 1/10
+ 1/98 [..............................] - ETA: 32s - loss: 2.0818 - accuracy: 0.0938WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0014s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0014s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+98/98 [==============================] - 1s 3ms/step - loss: 1.5867 - accuracy: 0.3708 - val_loss: 1.2644 - val_accuracy: 0.5089
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2823 - accuracy: 0.4901 - val_loss: 1.1553 - val_accuracy: 0.5434
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1937 - accuracy: 0.5255 - val_loss: 1.1124 - val_accuracy: 0.5370
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1714 - accuracy: 0.5246 - val_loss: 1.0899 - val_accuracy: 0.5446
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1476 - accuracy: 0.5354 - val_loss: 1.0771 - val_accuracy: 0.5485
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1332 - accuracy: 0.5421 - val_loss: 1.0665 - val_accuracy: 0.5421
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1185 - accuracy: 0.5380 - val_loss: 1.0580 - val_accuracy: 0.5561
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1131 - accuracy: 0.5444 - val_loss: 1.0533 - val_accuracy: 0.5587
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0992 - accuracy: 0.5530 - val_loss: 1.0487 - val_accuracy: 0.5472
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0937 - accuracy: 0.5456 - val_loss: 1.0428 - val_accuracy: 0.5702
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 4 Complete [00h 00m 23s]
+val_accuracy: 0.5701530575752258
+
+Best val_accuracy So Far: 0.5701530575752258
+Total elapsed time: 00h 01m 04s
+
+Search: Running Trial #5
+
+Value             |Best Value So Far |Hyperparameter
+1                 |1                 |mlp_layers
+64                |56                |units_0
+True              |True              |dropout
+32                |64                |units_1
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.5053 - accuracy: 0.4075 - val_loss: 1.2124 - val_accuracy: 0.5204
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2304 - accuracy: 0.5067 - val_loss: 1.1178 - val_accuracy: 0.5497
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1801 - accuracy: 0.5211 - val_loss: 1.0847 - val_accuracy: 0.5727
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1441 - accuracy: 0.5284 - val_loss: 1.0681 - val_accuracy: 0.5740
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1277 - accuracy: 0.5370 - val_loss: 1.0559 - val_accuracy: 0.5804
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1150 - accuracy: 0.5421 - val_loss: 1.0492 - val_accuracy: 0.5740
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1016 - accuracy: 0.5434 - val_loss: 1.0423 - val_accuracy: 0.5714
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0850 - accuracy: 0.5466 - val_loss: 1.0367 - val_accuracy: 0.5740
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0882 - accuracy: 0.5501 - val_loss: 1.0332 - val_accuracy: 0.5765
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.0862 - accuracy: 0.5469 - val_loss: 1.0306 - val_accuracy: 0.5689
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 5 Complete [00h 00m 23s]
+val_accuracy: 0.5803571343421936
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 01m 27s
+
+Search: Running Trial #6
+
+Value             |Best Value So Far |Hyperparameter
+1                 |1                 |mlp_layers
+32                |64                |units_0
+False             |True              |dropout
+8                 |32                |units_1
+
+Epoch 1/10
+ 1/98 [..............................] - ETA: 32s - loss: 2.4846 - accuracy: 0.0000e+00WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0012s vs `on_train_batch_end` time: 0.0013s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0012s vs `on_train_batch_end` time: 0.0013s). Check your callbacks.
+98/98 [==============================] - 1s 3ms/step - loss: 1.9013 - accuracy: 0.2425 - val_loss: 1.4951 - val_accuracy: 0.4235
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3945 - accuracy: 0.4544 - val_loss: 1.2588 - val_accuracy: 0.5051
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2585 - accuracy: 0.5163 - val_loss: 1.1703 - val_accuracy: 0.5383
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1926 - accuracy: 0.5303 - val_loss: 1.1223 - val_accuracy: 0.5612
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1534 - accuracy: 0.5383 - val_loss: 1.0945 - val_accuracy: 0.5663
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1258 - accuracy: 0.5491 - val_loss: 1.0744 - val_accuracy: 0.5676
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1073 - accuracy: 0.5440 - val_loss: 1.0633 - val_accuracy: 0.5804
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0930 - accuracy: 0.5517 - val_loss: 1.0560 - val_accuracy: 0.5651
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0818 - accuracy: 0.5555 - val_loss: 1.0473 - val_accuracy: 0.5740
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0731 - accuracy: 0.5571 - val_loss: 1.0449 - val_accuracy: 0.5702
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 6 Complete [00h 00m 12s]
+val_accuracy: 0.5803571343421936
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 01m 39s
+
+Search: Running Trial #7
+
+Value             |Best Value So Far |Hyperparameter
+2                 |1                 |mlp_layers
+40                |64                |units_0
+False             |True              |dropout
+56                |32                |units_1
+
+Epoch 1/10
+98/98 [==============================] - 1s 3ms/step - loss: 1.4210 - accuracy: 0.4678 - val_loss: 1.1544 - val_accuracy: 0.5332
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1716 - accuracy: 0.5310 - val_loss: 1.0824 - val_accuracy: 0.5485
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1153 - accuracy: 0.5479 - val_loss: 1.0529 - val_accuracy: 0.5497
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0840 - accuracy: 0.5488 - val_loss: 1.0362 - val_accuracy: 0.5599
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0652 - accuracy: 0.5581 - val_loss: 1.0239 - val_accuracy: 0.5523
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0492 - accuracy: 0.5590 - val_loss: 1.0239 - val_accuracy: 0.5497
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0344 - accuracy: 0.5654 - val_loss: 1.0240 - val_accuracy: 0.5497
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0218 - accuracy: 0.5820 - val_loss: 1.0165 - val_accuracy: 0.5702
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0109 - accuracy: 0.5788 - val_loss: 1.0248 - val_accuracy: 0.5434
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0062 - accuracy: 0.5782 - val_loss: 1.0138 - val_accuracy: 0.5702
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 7 Complete [00h 00m 12s]
+val_accuracy: 0.5701530575752258
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 01m 51s
+
+Search: Running Trial #8
+
+Value             |Best Value So Far |Hyperparameter
+3                 |1                 |mlp_layers
+40                |64                |units_0
+False             |True              |dropout
+32                |32                |units_1
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.7027 - accuracy: 0.3976 - val_loss: 1.3456 - val_accuracy: 0.5179
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2470 - accuracy: 0.5319 - val_loss: 1.1369 - val_accuracy: 0.5344
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1467 - accuracy: 0.5482 - val_loss: 1.0812 - val_accuracy: 0.5587
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1020 - accuracy: 0.5632 - val_loss: 1.0758 - val_accuracy: 0.5370
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0772 - accuracy: 0.5619 - val_loss: 1.0652 - val_accuracy: 0.5523
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0568 - accuracy: 0.5680 - val_loss: 1.0429 - val_accuracy: 0.5536
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0476 - accuracy: 0.5670 - val_loss: 1.0351 - val_accuracy: 0.5612
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0288 - accuracy: 0.5826 - val_loss: 1.0371 - val_accuracy: 0.5663
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0185 - accuracy: 0.5868 - val_loss: 1.0313 - val_accuracy: 0.5714
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0117 - accuracy: 0.5830 - val_loss: 1.0325 - val_accuracy: 0.5753
+Trial 8 Complete [00h 00m 13s]
+val_accuracy: 0.5752550959587097
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 02m 04s
+
+Search: Running Trial #9
+
+Value             |Best Value So Far |Hyperparameter
+3                 |1                 |mlp_layers
+32                |64                |units_0
+False             |True              |dropout
+8                 |32                |units_1
+32                |None              |units_2
+
+Epoch 1/10
+ 1/98 [..............................] - ETA: 38s - loss: 1.9676 - accuracy: 0.0312WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0013s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0013s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+98/98 [==============================] - 1s 4ms/step - loss: 1.5877 - accuracy: 0.3931 - val_loss: 1.2568 - val_accuracy: 0.4885
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2591 - accuracy: 0.4904 - val_loss: 1.1660 - val_accuracy: 0.5166
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1884 - accuracy: 0.5185 - val_loss: 1.1105 - val_accuracy: 0.5089
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1414 - accuracy: 0.5322 - val_loss: 1.0780 - val_accuracy: 0.5408
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1111 - accuracy: 0.5354 - val_loss: 1.0591 - val_accuracy: 0.5459
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0902 - accuracy: 0.5389 - val_loss: 1.0448 - val_accuracy: 0.5523
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0715 - accuracy: 0.5511 - val_loss: 1.0288 - val_accuracy: 0.5765
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.0574 - accuracy: 0.5520 - val_loss: 1.0265 - val_accuracy: 0.5727
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0455 - accuracy: 0.5530 - val_loss: 1.0274 - val_accuracy: 0.5727
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0357 - accuracy: 0.5622 - val_loss: 1.0230 - val_accuracy: 0.5599
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 9 Complete [00h 00m 23s]
+val_accuracy: 0.5765306353569031
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 02m 28s
+
+Search: Running Trial #10
+
+Value             |Best Value So Far |Hyperparameter
+3                 |1                 |mlp_layers
+16                |64                |units_0
+False             |True              |dropout
+56                |32                |units_1
+56                |None              |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.4588 - accuracy: 0.4477 - val_loss: 1.1798 - val_accuracy: 0.5077
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1725 - accuracy: 0.5319 - val_loss: 1.0963 - val_accuracy: 0.5408
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1158 - accuracy: 0.5507 - val_loss: 1.0744 - val_accuracy: 0.5497
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0902 - accuracy: 0.5526 - val_loss: 1.0597 - val_accuracy: 0.5625
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0724 - accuracy: 0.5597 - val_loss: 1.0584 - val_accuracy: 0.5599
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0547 - accuracy: 0.5676 - val_loss: 1.0483 - val_accuracy: 0.5676
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0439 - accuracy: 0.5734 - val_loss: 1.0420 - val_accuracy: 0.5689
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0318 - accuracy: 0.5750 - val_loss: 1.0441 - val_accuracy: 0.5574
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0191 - accuracy: 0.5833 - val_loss: 1.0299 - val_accuracy: 0.5638
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0086 - accuracy: 0.5798 - val_loss: 1.0530 - val_accuracy: 0.5536
+Trial 10 Complete [00h 00m 13s]
+val_accuracy: 0.5688775777816772
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 02m 41s
+
+Search: Running Trial #11
+
+Value             |Best Value So Far |Hyperparameter
+2                 |1                 |mlp_layers
+8                 |64                |units_0
+False             |True              |dropout
+16                |32                |units_1
+56                |None              |units_2
+
+Epoch 1/10
+ 1/98 [..............................] - ETA: 35s - loss: 2.0736 - accuracy: 0.1562WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0013s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0013s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+98/98 [==============================] - 1s 3ms/step - loss: 1.8165 - accuracy: 0.2875 - val_loss: 1.5833 - val_accuracy: 0.4349
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.4341 - accuracy: 0.4461 - val_loss: 1.2742 - val_accuracy: 0.5038
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2591 - accuracy: 0.4834 - val_loss: 1.1699 - val_accuracy: 0.5115
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2045 - accuracy: 0.4974 - val_loss: 1.1269 - val_accuracy: 0.5230
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1724 - accuracy: 0.5169 - val_loss: 1.0994 - val_accuracy: 0.5472
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1503 - accuracy: 0.5258 - val_loss: 1.0793 - val_accuracy: 0.5523
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1335 - accuracy: 0.5271 - val_loss: 1.0642 - val_accuracy: 0.5485
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1205 - accuracy: 0.5316 - val_loss: 1.0553 - val_accuracy: 0.5548
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1112 - accuracy: 0.5332 - val_loss: 1.0478 - val_accuracy: 0.5612
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1034 - accuracy: 0.5380 - val_loss: 1.0432 - val_accuracy: 0.5638
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 11 Complete [00h 00m 13s]
+val_accuracy: 0.5637755393981934
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 02m 54s
+
+Search: Running Trial #12
+
+Value             |Best Value So Far |Hyperparameter
+2                 |1                 |mlp_layers
+32                |64                |units_0
+True              |True              |dropout
+64                |32                |units_1
+64                |None              |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 3ms/step - loss: 1.5051 - accuracy: 0.4161 - val_loss: 1.2331 - val_accuracy: 0.5038
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2538 - accuracy: 0.4990 - val_loss: 1.1388 - val_accuracy: 0.5332
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1732 - accuracy: 0.5310 - val_loss: 1.0853 - val_accuracy: 0.5485
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1392 - accuracy: 0.5284 - val_loss: 1.0525 - val_accuracy: 0.5625
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1090 - accuracy: 0.5491 - val_loss: 1.0370 - val_accuracy: 0.5702
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0880 - accuracy: 0.5399 - val_loss: 1.0298 - val_accuracy: 0.5651
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0739 - accuracy: 0.5664 - val_loss: 1.0277 - val_accuracy: 0.5663
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0570 - accuracy: 0.5565 - val_loss: 1.0215 - val_accuracy: 0.5727
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0455 - accuracy: 0.5696 - val_loss: 1.0147 - val_accuracy: 0.5663
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0465 - accuracy: 0.5712 - val_loss: 1.0129 - val_accuracy: 0.5714
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 12 Complete [00h 00m 15s]
+val_accuracy: 0.5727040767669678
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 03m 09s
+
+Search: Running Trial #13
+
+Value             |Best Value So Far |Hyperparameter
+2                 |1                 |mlp_layers
+40                |64                |units_0
+True              |True              |dropout
+16                |32                |units_1
+8                 |None              |units_2
+
+Epoch 1/10
+ 1/98 [..............................] - ETA: 37s - loss: 2.0818 - accuracy: 0.1250WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0014s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0014s vs `on_train_batch_end` time: 0.0014s). Check your callbacks.
+98/98 [==============================] - 1s 4ms/step - loss: 1.6854 - accuracy: 0.3312 - val_loss: 1.3723 - val_accuracy: 0.4592
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2976 - accuracy: 0.5048 - val_loss: 1.1393 - val_accuracy: 0.5485
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2095 - accuracy: 0.5214 - val_loss: 1.0930 - val_accuracy: 0.5523
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1820 - accuracy: 0.5332 - val_loss: 1.0732 - val_accuracy: 0.5574
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1553 - accuracy: 0.5453 - val_loss: 1.0690 - val_accuracy: 0.5523
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1394 - accuracy: 0.5434 - val_loss: 1.0589 - val_accuracy: 0.5510
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1215 - accuracy: 0.5357 - val_loss: 1.0501 - val_accuracy: 0.5651
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1049 - accuracy: 0.5530 - val_loss: 1.0441 - val_accuracy: 0.5625
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0979 - accuracy: 0.5546 - val_loss: 1.0368 - val_accuracy: 0.5676
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0871 - accuracy: 0.5533 - val_loss: 1.0338 - val_accuracy: 0.5714
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 13 Complete [00h 00m 15s]
+val_accuracy: 0.5714285969734192
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 03m 24s
+
+Search: Running Trial #14
+
+Value             |Best Value So Far |Hyperparameter
+1                 |1                 |mlp_layers
+64                |64                |units_0
+False             |True              |dropout
+8                 |32                |units_1
+56                |None              |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.4635 - accuracy: 0.4123 - val_loss: 1.2156 - val_accuracy: 0.4898
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1955 - accuracy: 0.5220 - val_loss: 1.1169 - val_accuracy: 0.5434
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1370 - accuracy: 0.5434 - val_loss: 1.0798 - val_accuracy: 0.5587
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1061 - accuracy: 0.5530 - val_loss: 1.0613 - val_accuracy: 0.5638
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0883 - accuracy: 0.5562 - val_loss: 1.0459 - val_accuracy: 0.5702
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0758 - accuracy: 0.5654 - val_loss: 1.0420 - val_accuracy: 0.5714
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0634 - accuracy: 0.5680 - val_loss: 1.0348 - val_accuracy: 0.5663
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0560 - accuracy: 0.5696 - val_loss: 1.0333 - val_accuracy: 0.5727
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0485 - accuracy: 0.5737 - val_loss: 1.0292 - val_accuracy: 0.5651
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0423 - accuracy: 0.5734 - val_loss: 1.0272 - val_accuracy: 0.5753
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 14 Complete [00h 00m 13s]
+val_accuracy: 0.5752550959587097
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 03m 37s
+
+Search: Running Trial #15
+
+Value             |Best Value So Far |Hyperparameter
+2                 |1                 |mlp_layers
+32                |64                |units_0
+False             |True              |dropout
+56                |32                |units_1
+64                |None              |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.4680 - accuracy: 0.4458 - val_loss: 1.1855 - val_accuracy: 0.5179
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1934 - accuracy: 0.5188 - val_loss: 1.1166 - val_accuracy: 0.5472
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1283 - accuracy: 0.5383 - val_loss: 1.0819 - val_accuracy: 0.5395
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0942 - accuracy: 0.5542 - val_loss: 1.0638 - val_accuracy: 0.5663
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0702 - accuracy: 0.5632 - val_loss: 1.0566 - val_accuracy: 0.5625
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0564 - accuracy: 0.5590 - val_loss: 1.0505 - val_accuracy: 0.5536
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.0396 - accuracy: 0.5724 - val_loss: 1.0399 - val_accuracy: 0.5702
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0298 - accuracy: 0.5692 - val_loss: 1.0345 - val_accuracy: 0.5778
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0199 - accuracy: 0.5788 - val_loss: 1.0296 - val_accuracy: 0.5740
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0105 - accuracy: 0.5782 - val_loss: 1.0273 - val_accuracy: 0.5740
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 15 Complete [00h 00m 14s]
+val_accuracy: 0.5778061151504517
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 03m 50s
+
+Search: Running Trial #16
+
+Value             |Best Value So Far |Hyperparameter
+1                 |1                 |mlp_layers
+48                |64                |units_0
+True              |True              |dropout
+32                |32                |units_1
+8                 |None              |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.5893 - accuracy: 0.3851 - val_loss: 1.2966 - val_accuracy: 0.4898
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2863 - accuracy: 0.4971 - val_loss: 1.1717 - val_accuracy: 0.5089
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2210 - accuracy: 0.5166 - val_loss: 1.1239 - val_accuracy: 0.5485
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1780 - accuracy: 0.5278 - val_loss: 1.0974 - val_accuracy: 0.5676
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1522 - accuracy: 0.5195 - val_loss: 1.0819 - val_accuracy: 0.5612
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1400 - accuracy: 0.5300 - val_loss: 1.0673 - val_accuracy: 0.5676
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1192 - accuracy: 0.5389 - val_loss: 1.0589 - val_accuracy: 0.5702
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1138 - accuracy: 0.5431 - val_loss: 1.0541 - val_accuracy: 0.5663
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1084 - accuracy: 0.5418 - val_loss: 1.0500 - val_accuracy: 0.5689
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0972 - accuracy: 0.5440 - val_loss: 1.0422 - val_accuracy: 0.5778
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 16 Complete [00h 00m 23s]
+val_accuracy: 0.5778061151504517
+
+Best val_accuracy So Far: 0.5803571343421936
+Total elapsed time: 00h 04m 14s
+
+Search: Running Trial #17
+
+Value             |Best Value So Far |Hyperparameter
+2                 |1                 |mlp_layers
+64                |64                |units_0
+False             |True              |dropout
+32                |32                |units_1
+16                |None              |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.4648 - accuracy: 0.4212 - val_loss: 1.1799 - val_accuracy: 0.5140
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1805 - accuracy: 0.5434 - val_loss: 1.0947 - val_accuracy: 0.5561
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1179 - accuracy: 0.5581 - val_loss: 1.0606 - val_accuracy: 0.5689
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0853 - accuracy: 0.5606 - val_loss: 1.0523 - val_accuracy: 0.5804
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0624 - accuracy: 0.5680 - val_loss: 1.0327 - val_accuracy: 0.5842
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0453 - accuracy: 0.5721 - val_loss: 1.0373 - val_accuracy: 0.5663
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0312 - accuracy: 0.5756 - val_loss: 1.0226 - val_accuracy: 0.5957
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0216 - accuracy: 0.5779 - val_loss: 1.0269 - val_accuracy: 0.5727
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0128 - accuracy: 0.5826 - val_loss: 1.0237 - val_accuracy: 0.5880
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0031 - accuracy: 0.5865 - val_loss: 1.0181 - val_accuracy: 0.6020
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 17 Complete [00h 00m 11s]
+val_accuracy: 0.6020408272743225
+
+Best val_accuracy So Far: 0.6020408272743225
+Total elapsed time: 00h 04m 25s
+
+Search: Running Trial #18
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+40                |64                |units_0
+True              |False             |dropout
+24                |32                |units_1
+48                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.6374 - accuracy: 0.3542 - val_loss: 1.3373 - val_accuracy: 0.4885
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3058 - accuracy: 0.4943 - val_loss: 1.1855 - val_accuracy: 0.5166
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2162 - accuracy: 0.5271 - val_loss: 1.1325 - val_accuracy: 0.5281
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1814 - accuracy: 0.5306 - val_loss: 1.1044 - val_accuracy: 0.5344
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1582 - accuracy: 0.5348 - val_loss: 1.0853 - val_accuracy: 0.5472
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1437 - accuracy: 0.5367 - val_loss: 1.0716 - val_accuracy: 0.5434
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1298 - accuracy: 0.5345 - val_loss: 1.0607 - val_accuracy: 0.5485
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1201 - accuracy: 0.5373 - val_loss: 1.0562 - val_accuracy: 0.5370
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1095 - accuracy: 0.5539 - val_loss: 1.0534 - val_accuracy: 0.5497
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1070 - accuracy: 0.5520 - val_loss: 1.0479 - val_accuracy: 0.5485
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 18 Complete [00h 00m 24s]
+val_accuracy: 0.5497449040412903
+
+Best val_accuracy So Far: 0.6020408272743225
+Total elapsed time: 00h 04m 49s
+
+Search: Running Trial #19
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+40                |64                |units_0
+False             |False             |dropout
+64                |32                |units_1
+48                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 3ms/step - loss: 1.5200 - accuracy: 0.4170 - val_loss: 1.2896 - val_accuracy: 0.4872
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2693 - accuracy: 0.5045 - val_loss: 1.1747 - val_accuracy: 0.5153
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1985 - accuracy: 0.5310 - val_loss: 1.1234 - val_accuracy: 0.5370
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1597 - accuracy: 0.5408 - val_loss: 1.0927 - val_accuracy: 0.5536
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1321 - accuracy: 0.5488 - val_loss: 1.0750 - val_accuracy: 0.5574
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.1141 - accuracy: 0.5562 - val_loss: 1.0632 - val_accuracy: 0.5625
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1006 - accuracy: 0.5520 - val_loss: 1.0519 - val_accuracy: 0.5663
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0885 - accuracy: 0.5526 - val_loss: 1.0467 - val_accuracy: 0.5638
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0801 - accuracy: 0.5584 - val_loss: 1.0417 - val_accuracy: 0.5727
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0723 - accuracy: 0.5645 - val_loss: 1.0402 - val_accuracy: 0.5689
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 19 Complete [00h 00m 12s]
+val_accuracy: 0.5727040767669678
+
+Best val_accuracy So Far: 0.6020408272743225
+Total elapsed time: 00h 05m 01s
+
+Search: Running Trial #20
+
+Value             |Best Value So Far |Hyperparameter
+3                 |2                 |mlp_layers
+40                |64                |units_0
+False             |False             |dropout
+40                |32                |units_1
+56                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.4230 - accuracy: 0.4477 - val_loss: 1.1534 - val_accuracy: 0.5204
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1562 - accuracy: 0.5501 - val_loss: 1.0824 - val_accuracy: 0.5663
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1042 - accuracy: 0.5558 - val_loss: 1.0524 - val_accuracy: 0.5689
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0715 - accuracy: 0.5619 - val_loss: 1.0472 - val_accuracy: 0.5727
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0487 - accuracy: 0.5680 - val_loss: 1.0352 - val_accuracy: 0.5612
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0335 - accuracy: 0.5708 - val_loss: 1.0373 - val_accuracy: 0.5663
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0206 - accuracy: 0.5699 - val_loss: 1.0316 - val_accuracy: 0.5561
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0046 - accuracy: 0.5750 - val_loss: 1.0269 - val_accuracy: 0.5714
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 0.9979 - accuracy: 0.5753 - val_loss: 1.0338 - val_accuracy: 0.5727
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9861 - accuracy: 0.5877 - val_loss: 1.0198 - val_accuracy: 0.5804
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best/assets
+[34m[1mwandb[0m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075707-wwv7sl09/files/model-best)... Done. 0.0s
+Trial 20 Complete [00h 00m 23s]
+val_accuracy: 0.5803571343421936
+
+Best val_accuracy So Far: 0.6020408272743225
+Total elapsed time: 00h 05m 24s

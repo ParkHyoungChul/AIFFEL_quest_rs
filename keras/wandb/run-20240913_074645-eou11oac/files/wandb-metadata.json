@@ -1,0 +1,30 @@
+{
+  "os":  "Linux-6.1.100+-x86_64-with-glibc2.31",
+  "python":  "3.9.7",
+  "startedAt":  "2024-09-13T07:46:45.348107Z",
+  "program":  "aiffel/AIFFEL_quest_rs/keras/keras13.ipynb",
+  "git":  {
+    "remote":  "https://github.com/ParkHyoungChul/AIFFEL_quest_rs.git",
+    "commit":  "11a93319a4b2ec7d1ecceec265f1070fae42080a"
+  },
+  "email":  "asdhk0762@gmail.com",
+  "root":  "/aiffel/aiffel/AIFFEL_quest_rs/keras",
+  "host":  "wjyz4klsp7y2ycdisu1p6goeg-6846bfdd67-llcwh",
+  "username":  "root",
+  "executable":  "/opt/conda/bin/python",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "disk":  {
+    "/":  {
+      "total":  "130798882816",
+      "used":  "32229138432"
+    }
+  },
+  "memory":  {
+    "total":  "7808696320"
+  },
+  "cpu":  {
+    "count":  1,
+    "countLogical":  2
+  }
+}

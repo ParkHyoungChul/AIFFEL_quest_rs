@@ -1,0 +1,712 @@
+Model: "model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+input_2 (InputLayer)         [(None, 11)]              0
+_________________________________________________________________
+dense_4 (Dense)              (None, 8)                 96
+_________________________________________________________________
+dense_5 (Dense)              (None, 7)                 63
+=================================================================
+Total params: 159
+Trainable params: 159
+Non-trainable params: 0
+_________________________________________________________________
+
+Search: Running Trial #1
+
+Value             |Best Value So Far |Hyperparameter
+3                 |3                 |mlp_layers
+8                 |8                 |units_0
+True              |True              |dropout
+
+Epoch 1/10
+98/98 [==============================] - 1s 5ms/step - loss: 1.7062 - accuracy: 0.2951 - val_loss: 1.5091 - val_accuracy: 0.3112
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.4608 - accuracy: 0.3551 - val_loss: 1.3157 - val_accuracy: 0.4477
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.3486 - accuracy: 0.4314 - val_loss: 1.2407 - val_accuracy: 0.4668
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3006 - accuracy: 0.4445 - val_loss: 1.1969 - val_accuracy: 0.4528
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2682 - accuracy: 0.4617 - val_loss: 1.1591 - val_accuracy: 0.4630
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2311 - accuracy: 0.4783 - val_loss: 1.1294 - val_accuracy: 0.4732
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2003 - accuracy: 0.4923 - val_loss: 1.1078 - val_accuracy: 0.4974
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1987 - accuracy: 0.4959 - val_loss: 1.0968 - val_accuracy: 0.5128
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1822 - accuracy: 0.5022 - val_loss: 1.0834 - val_accuracy: 0.5306
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1673 - accuracy: 0.5077 - val_loss: 1.0706 - val_accuracy: 0.5166
+Trial 1 Complete [00h 00m 07s]
+val_accuracy: 0.5306122303009033
+
+Best val_accuracy So Far: 0.5306122303009033
+Total elapsed time: 00h 00m 07s
+
+Search: Running Trial #2
+
+Value             |Best Value So Far |Hyperparameter
+3                 |3                 |mlp_layers
+56                |8                 |units_0
+True              |True              |dropout
+48                |8                 |units_1
+64                |8                 |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 5ms/step - loss: 1.3759 - accuracy: 0.4671 - val_loss: 1.1497 - val_accuracy: 0.5281
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1753 - accuracy: 0.5211 - val_loss: 1.0836 - val_accuracy: 0.5587
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1258 - accuracy: 0.5386 - val_loss: 1.0482 - val_accuracy: 0.5676
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0864 - accuracy: 0.5444 - val_loss: 1.0321 - val_accuracy: 0.5740
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0586 - accuracy: 0.5629 - val_loss: 1.0385 - val_accuracy: 0.5574
+Epoch 6/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.0433 - accuracy: 0.5539 - val_loss: 1.0311 - val_accuracy: 0.5829
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0214 - accuracy: 0.5728 - val_loss: 1.0091 - val_accuracy: 0.5778
+Epoch 8/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.0094 - accuracy: 0.5782 - val_loss: 1.0178 - val_accuracy: 0.5893
+Epoch 9/10
+98/98 [==============================] - 1s 10ms/step - loss: 1.0063 - accuracy: 0.5769 - val_loss: 1.0123 - val_accuracy: 0.5689
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9899 - accuracy: 0.5823 - val_loss: 1.0099 - val_accuracy: 0.5778
+Trial 2 Complete [00h 00m 07s]
+val_accuracy: 0.5892857313156128
+
+Best val_accuracy So Far: 0.5892857313156128
+Total elapsed time: 00h 00m 14s
+
+Search: Running Trial #3
+
+Value             |Best Value So Far |Hyperparameter
+3                 |3                 |mlp_layers
+48                |56                |units_0
+False             |True              |dropout
+40                |48                |units_1
+64                |64                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.4040 - accuracy: 0.4349 - val_loss: 1.1277 - val_accuracy: 0.5191
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1324 - accuracy: 0.5383 - val_loss: 1.0666 - val_accuracy: 0.5587
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0863 - accuracy: 0.5584 - val_loss: 1.0485 - val_accuracy: 0.5599
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0597 - accuracy: 0.5603 - val_loss: 1.0208 - val_accuracy: 0.5765
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0434 - accuracy: 0.5654 - val_loss: 1.0130 - val_accuracy: 0.5702
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0246 - accuracy: 0.5785 - val_loss: 1.0107 - val_accuracy: 0.5753
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0110 - accuracy: 0.5836 - val_loss: 1.0062 - val_accuracy: 0.5842
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9933 - accuracy: 0.5881 - val_loss: 1.0040 - val_accuracy: 0.5867
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9828 - accuracy: 0.5935 - val_loss: 1.0002 - val_accuracy: 0.5893
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9693 - accuracy: 0.5941 - val_loss: 1.0030 - val_accuracy: 0.5740
+Trial 3 Complete [00h 00m 06s]
+val_accuracy: 0.5892857313156128
+
+Best val_accuracy So Far: 0.5892857313156128
+Total elapsed time: 00h 00m 20s
+
+Search: Running Trial #4
+
+Value             |Best Value So Far |Hyperparameter
+2                 |3                 |mlp_layers
+24                |56                |units_0
+False             |True              |dropout
+32                |48                |units_1
+16                |64                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 6ms/step - loss: 1.5776 - accuracy: 0.3960 - val_loss: 1.2393 - val_accuracy: 0.4694
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2139 - accuracy: 0.5140 - val_loss: 1.1110 - val_accuracy: 0.5434
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1467 - accuracy: 0.5392 - val_loss: 1.0760 - val_accuracy: 0.5612
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1149 - accuracy: 0.5475 - val_loss: 1.0562 - val_accuracy: 0.5612
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0933 - accuracy: 0.5562 - val_loss: 1.0453 - val_accuracy: 0.5676
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0782 - accuracy: 0.5578 - val_loss: 1.0380 - val_accuracy: 0.5753
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0665 - accuracy: 0.5590 - val_loss: 1.0324 - val_accuracy: 0.5804
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0546 - accuracy: 0.5683 - val_loss: 1.0323 - val_accuracy: 0.5906
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0452 - accuracy: 0.5708 - val_loss: 1.0273 - val_accuracy: 0.5855
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0369 - accuracy: 0.5753 - val_loss: 1.0255 - val_accuracy: 0.5842
+Trial 4 Complete [00h 00m 08s]
+val_accuracy: 0.5905612111091614
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 00m 28s
+
+Search: Running Trial #5
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+48                |24                |units_0
+False             |False             |dropout
+32                |32                |units_1
+8                 |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.5331 - accuracy: 0.3979 - val_loss: 1.2700 - val_accuracy: 0.4885
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2372 - accuracy: 0.5169 - val_loss: 1.1486 - val_accuracy: 0.5217
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1610 - accuracy: 0.5389 - val_loss: 1.0994 - val_accuracy: 0.5446
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1238 - accuracy: 0.5597 - val_loss: 1.0745 - val_accuracy: 0.5536
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0994 - accuracy: 0.5597 - val_loss: 1.0589 - val_accuracy: 0.5625
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0834 - accuracy: 0.5648 - val_loss: 1.0502 - val_accuracy: 0.5663
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0723 - accuracy: 0.5648 - val_loss: 1.0428 - val_accuracy: 0.5651
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0616 - accuracy: 0.5635 - val_loss: 1.0387 - val_accuracy: 0.5663
+Epoch 9/10
+98/98 [==============================] - 1s 6ms/step - loss: 1.0541 - accuracy: 0.5696 - val_loss: 1.0347 - val_accuracy: 0.5587
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0465 - accuracy: 0.5718 - val_loss: 1.0322 - val_accuracy: 0.5625
+Trial 5 Complete [00h 00m 06s]
+val_accuracy: 0.5663265585899353
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 00m 34s
+
+Search: Running Trial #6
+
+Value             |Best Value So Far |Hyperparameter
+3                 |2                 |mlp_layers
+32                |24                |units_0
+True              |False             |dropout
+48                |32                |units_1
+8                 |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.6599 - accuracy: 0.3529 - val_loss: 1.3144 - val_accuracy: 0.4758
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.3942 - accuracy: 0.4525 - val_loss: 1.2177 - val_accuracy: 0.5115
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2953 - accuracy: 0.4812 - val_loss: 1.1520 - val_accuracy: 0.5446
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2578 - accuracy: 0.4866 - val_loss: 1.1254 - val_accuracy: 0.5268
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2027 - accuracy: 0.5128 - val_loss: 1.0932 - val_accuracy: 0.5523
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1649 - accuracy: 0.5274 - val_loss: 1.0793 - val_accuracy: 0.5574
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1443 - accuracy: 0.5399 - val_loss: 1.0590 - val_accuracy: 0.5497
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1146 - accuracy: 0.5444 - val_loss: 1.0448 - val_accuracy: 0.5727
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0938 - accuracy: 0.5405 - val_loss: 1.0343 - val_accuracy: 0.5740
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0841 - accuracy: 0.5603 - val_loss: 1.0291 - val_accuracy: 0.5689
+Trial 6 Complete [00h 00m 08s]
+val_accuracy: 0.5739796161651611
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 00m 42s
+
+Search: Running Trial #7
+
+Value             |Best Value So Far |Hyperparameter
+3                 |2                 |mlp_layers
+56                |24                |units_0
+False             |False             |dropout
+64                |32                |units_1
+56                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.3148 - accuracy: 0.4978 - val_loss: 1.1109 - val_accuracy: 0.5689
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1302 - accuracy: 0.5533 - val_loss: 1.0566 - val_accuracy: 0.5548
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0747 - accuracy: 0.5568 - val_loss: 1.0414 - val_accuracy: 0.5727
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0431 - accuracy: 0.5699 - val_loss: 1.0317 - val_accuracy: 0.5536
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0206 - accuracy: 0.5743 - val_loss: 1.0324 - val_accuracy: 0.5676
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0031 - accuracy: 0.5846 - val_loss: 1.0204 - val_accuracy: 0.5842
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9890 - accuracy: 0.5922 - val_loss: 1.0246 - val_accuracy: 0.5791
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9719 - accuracy: 0.5868 - val_loss: 1.0048 - val_accuracy: 0.5855
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9562 - accuracy: 0.5996 - val_loss: 1.0027 - val_accuracy: 0.5816
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9457 - accuracy: 0.6027 - val_loss: 1.0052 - val_accuracy: 0.5676
+Trial 7 Complete [00h 00m 08s]
+val_accuracy: 0.5854591727256775
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 00m 50s
+
+Search: Running Trial #8
+
+Value             |Best Value So Far |Hyperparameter
+3                 |2                 |mlp_layers
+16                |24                |units_0
+True              |False             |dropout
+48                |32                |units_1
+16                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 7ms/step - loss: 1.4813 - accuracy: 0.4639 - val_loss: 1.2345 - val_accuracy: 0.4987
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2666 - accuracy: 0.4917 - val_loss: 1.1516 - val_accuracy: 0.5242
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2046 - accuracy: 0.5045 - val_loss: 1.1055 - val_accuracy: 0.5319
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1780 - accuracy: 0.5121 - val_loss: 1.0790 - val_accuracy: 0.5510
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1624 - accuracy: 0.5223 - val_loss: 1.0677 - val_accuracy: 0.5651
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1298 - accuracy: 0.5418 - val_loss: 1.0498 - val_accuracy: 0.5638
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1209 - accuracy: 0.5444 - val_loss: 1.0505 - val_accuracy: 0.5574
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1013 - accuracy: 0.5370 - val_loss: 1.0373 - val_accuracy: 0.5702
+Epoch 9/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.0913 - accuracy: 0.5507 - val_loss: 1.0311 - val_accuracy: 0.5676
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0879 - accuracy: 0.5491 - val_loss: 1.0259 - val_accuracy: 0.5765
+Trial 8 Complete [00h 00m 08s]
+val_accuracy: 0.5765306353569031
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 00m 58s
+
+Search: Running Trial #9
+
+Value             |Best Value So Far |Hyperparameter
+2                 |2                 |mlp_layers
+40                |24                |units_0
+True              |False             |dropout
+16                |32                |units_1
+32                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.6232 - accuracy: 0.3730 - val_loss: 1.2786 - val_accuracy: 0.5013
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2939 - accuracy: 0.4978 - val_loss: 1.1475 - val_accuracy: 0.5357
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2152 - accuracy: 0.5201 - val_loss: 1.1096 - val_accuracy: 0.5472
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1910 - accuracy: 0.5191 - val_loss: 1.0804 - val_accuracy: 0.5587
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1675 - accuracy: 0.5268 - val_loss: 1.0670 - val_accuracy: 0.5676
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1417 - accuracy: 0.5402 - val_loss: 1.0553 - val_accuracy: 0.5727
+Epoch 7/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.1216 - accuracy: 0.5491 - val_loss: 1.0469 - val_accuracy: 0.5714
+Epoch 8/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.1105 - accuracy: 0.5498 - val_loss: 1.0359 - val_accuracy: 0.5753
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1013 - accuracy: 0.5488 - val_loss: 1.0348 - val_accuracy: 0.5804
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0926 - accuracy: 0.5511 - val_loss: 1.0246 - val_accuracy: 0.5855
+Trial 9 Complete [00h 00m 08s]
+val_accuracy: 0.5854591727256775
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 06s
+
+Search: Running Trial #10
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+48                |24                |units_0
+False             |False             |dropout
+64                |32                |units_1
+40                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.5730 - accuracy: 0.4324 - val_loss: 1.2701 - val_accuracy: 0.5102
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2427 - accuracy: 0.5163 - val_loss: 1.1393 - val_accuracy: 0.5306
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1651 - accuracy: 0.5396 - val_loss: 1.0936 - val_accuracy: 0.5536
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1287 - accuracy: 0.5466 - val_loss: 1.0706 - val_accuracy: 0.5561
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1046 - accuracy: 0.5501 - val_loss: 1.0547 - val_accuracy: 0.5625
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0898 - accuracy: 0.5549 - val_loss: 1.0460 - val_accuracy: 0.5714
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0778 - accuracy: 0.5603 - val_loss: 1.0405 - val_accuracy: 0.5714
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0694 - accuracy: 0.5619 - val_loss: 1.0351 - val_accuracy: 0.5676
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0616 - accuracy: 0.5654 - val_loss: 1.0316 - val_accuracy: 0.5740
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0549 - accuracy: 0.5667 - val_loss: 1.0311 - val_accuracy: 0.5778
+Trial 10 Complete [00h 00m 05s]
+val_accuracy: 0.5778061151504517
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 11s
+
+Search: Running Trial #11
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+32                |24                |units_0
+False             |False             |dropout
+8                 |32                |units_1
+32                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 3ms/step - loss: 1.7075 - accuracy: 0.3567 - val_loss: 1.4266 - val_accuracy: 0.4770
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3296 - accuracy: 0.4869 - val_loss: 1.2198 - val_accuracy: 0.5191
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2144 - accuracy: 0.5134 - val_loss: 1.1412 - val_accuracy: 0.5497
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1627 - accuracy: 0.5370 - val_loss: 1.1038 - val_accuracy: 0.5536
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1336 - accuracy: 0.5453 - val_loss: 1.0821 - val_accuracy: 0.5612
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1134 - accuracy: 0.5504 - val_loss: 1.0690 - val_accuracy: 0.5599
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0988 - accuracy: 0.5511 - val_loss: 1.0601 - val_accuracy: 0.5561
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0885 - accuracy: 0.5574 - val_loss: 1.0529 - val_accuracy: 0.5702
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0785 - accuracy: 0.5619 - val_loss: 1.0484 - val_accuracy: 0.5714
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0713 - accuracy: 0.5587 - val_loss: 1.0483 - val_accuracy: 0.5574
+Trial 11 Complete [00h 00m 05s]
+val_accuracy: 0.5714285969734192
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 17s
+
+Search: Running Trial #12
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+40                |24                |units_0
+True              |False             |dropout
+8                 |32                |units_1
+32                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.6695 - accuracy: 0.3532 - val_loss: 1.3138 - val_accuracy: 0.5217
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3150 - accuracy: 0.4965 - val_loss: 1.1690 - val_accuracy: 0.5357
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2410 - accuracy: 0.5038 - val_loss: 1.1193 - val_accuracy: 0.5510
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1996 - accuracy: 0.5243 - val_loss: 1.0933 - val_accuracy: 0.5421
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1678 - accuracy: 0.5246 - val_loss: 1.0764 - val_accuracy: 0.5561
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1362 - accuracy: 0.5444 - val_loss: 1.0635 - val_accuracy: 0.5548
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1342 - accuracy: 0.5258 - val_loss: 1.0539 - val_accuracy: 0.5587
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1115 - accuracy: 0.5351 - val_loss: 1.0470 - val_accuracy: 0.5536
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1090 - accuracy: 0.5421 - val_loss: 1.0454 - val_accuracy: 0.5663
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1048 - accuracy: 0.5412 - val_loss: 1.0394 - val_accuracy: 0.5663
+Trial 12 Complete [00h 00m 05s]
+val_accuracy: 0.5663265585899353
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 22s
+
+Search: Running Trial #13
+
+Value             |Best Value So Far |Hyperparameter
+3                 |2                 |mlp_layers
+32                |24                |units_0
+False             |False             |dropout
+16                |32                |units_1
+64                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 5ms/step - loss: 1.4362 - accuracy: 0.4209 - val_loss: 1.1542 - val_accuracy: 0.5115
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1711 - accuracy: 0.5274 - val_loss: 1.0678 - val_accuracy: 0.5446
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1090 - accuracy: 0.5348 - val_loss: 1.0458 - val_accuracy: 0.5561
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0793 - accuracy: 0.5456 - val_loss: 1.0179 - val_accuracy: 0.5740
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0600 - accuracy: 0.5549 - val_loss: 1.0172 - val_accuracy: 0.5676
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0497 - accuracy: 0.5558 - val_loss: 1.0088 - val_accuracy: 0.5702
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0355 - accuracy: 0.5613 - val_loss: 1.0177 - val_accuracy: 0.5599
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0268 - accuracy: 0.5657 - val_loss: 1.0031 - val_accuracy: 0.5893
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0208 - accuracy: 0.5587 - val_loss: 1.0049 - val_accuracy: 0.5714
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0103 - accuracy: 0.5632 - val_loss: 0.9943 - val_accuracy: 0.5791
+Trial 13 Complete [00h 00m 08s]
+val_accuracy: 0.5892857313156128
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 30s
+
+Search: Running Trial #14
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+24                |24                |units_0
+True              |False             |dropout
+48                |32                |units_1
+64                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 5ms/step - loss: 1.7308 - accuracy: 0.3283 - val_loss: 1.4651 - val_accuracy: 0.4426
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.4249 - accuracy: 0.4282 - val_loss: 1.2762 - val_accuracy: 0.4860
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3115 - accuracy: 0.4681 - val_loss: 1.1925 - val_accuracy: 0.5268
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2538 - accuracy: 0.4793 - val_loss: 1.1473 - val_accuracy: 0.5344
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2204 - accuracy: 0.4949 - val_loss: 1.1185 - val_accuracy: 0.5395
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1836 - accuracy: 0.4994 - val_loss: 1.0967 - val_accuracy: 0.5510
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1696 - accuracy: 0.5038 - val_loss: 1.0821 - val_accuracy: 0.5587
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1430 - accuracy: 0.5140 - val_loss: 1.0693 - val_accuracy: 0.5638
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1437 - accuracy: 0.5201 - val_loss: 1.0572 - val_accuracy: 0.5765
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1317 - accuracy: 0.5204 - val_loss: 1.0497 - val_accuracy: 0.5702
+Trial 14 Complete [00h 00m 06s]
+val_accuracy: 0.5765306353569031
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 36s
+
+Search: Running Trial #15
+
+Value             |Best Value So Far |Hyperparameter
+2                 |2                 |mlp_layers
+56                |24                |units_0
+False             |False             |dropout
+40                |32                |units_1
+48                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.4905 - accuracy: 0.4387 - val_loss: 1.1449 - val_accuracy: 0.5523
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1793 - accuracy: 0.5424 - val_loss: 1.0756 - val_accuracy: 0.5651
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1244 - accuracy: 0.5507 - val_loss: 1.0455 - val_accuracy: 0.5753
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0898 - accuracy: 0.5530 - val_loss: 1.0382 - val_accuracy: 0.5714
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0662 - accuracy: 0.5613 - val_loss: 1.0359 - val_accuracy: 0.5714
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0500 - accuracy: 0.5686 - val_loss: 1.0255 - val_accuracy: 0.5791
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0363 - accuracy: 0.5718 - val_loss: 1.0211 - val_accuracy: 0.5778
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0224 - accuracy: 0.5743 - val_loss: 1.0221 - val_accuracy: 0.5791
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0151 - accuracy: 0.5734 - val_loss: 1.0190 - val_accuracy: 0.5753
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0035 - accuracy: 0.5785 - val_loss: 1.0166 - val_accuracy: 0.5791
+Trial 15 Complete [00h 00m 05s]
+val_accuracy: 0.579081654548645
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 41s
+
+Search: Running Trial #16
+
+Value             |Best Value So Far |Hyperparameter
+2                 |2                 |mlp_layers
+64                |24                |units_0
+True              |False             |dropout
+8                 |32                |units_1
+8                 |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 3ms/step - loss: 1.7177 - accuracy: 0.3271 - val_loss: 1.3752 - val_accuracy: 0.5191
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3686 - accuracy: 0.4783 - val_loss: 1.1732 - val_accuracy: 0.5434
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.2759 - accuracy: 0.4987 - val_loss: 1.1153 - val_accuracy: 0.5599
+Epoch 4/10
+98/98 [==============================] - 0s 4ms/step - loss: 1.2343 - accuracy: 0.5131 - val_loss: 1.0939 - val_accuracy: 0.5651
+Epoch 5/10
+98/98 [==============================] - 1s 6ms/step - loss: 1.1905 - accuracy: 0.5239 - val_loss: 1.0730 - val_accuracy: 0.5638
+Epoch 6/10
+98/98 [==============================] - 1s 6ms/step - loss: 1.1663 - accuracy: 0.5294 - val_loss: 1.0664 - val_accuracy: 0.5599
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1659 - accuracy: 0.5220 - val_loss: 1.0579 - val_accuracy: 0.5485
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1391 - accuracy: 0.5313 - val_loss: 1.0507 - val_accuracy: 0.5599
+Epoch 9/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1349 - accuracy: 0.5386 - val_loss: 1.0479 - val_accuracy: 0.5561
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1094 - accuracy: 0.5459 - val_loss: 1.0421 - val_accuracy: 0.5651
+Trial 16 Complete [00h 00m 06s]
+val_accuracy: 0.5650510191917419
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 48s
+
+Search: Running Trial #17
+
+Value             |Best Value So Far |Hyperparameter
+3                 |2                 |mlp_layers
+64                |24                |units_0
+False             |False             |dropout
+56                |32                |units_1
+32                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.4046 - accuracy: 0.4560 - val_loss: 1.1176 - val_accuracy: 0.5446
+Epoch 2/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1464 - accuracy: 0.5450 - val_loss: 1.0566 - val_accuracy: 0.5561
+Epoch 3/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0881 - accuracy: 0.5581 - val_loss: 1.0485 - val_accuracy: 0.5548
+Epoch 4/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0569 - accuracy: 0.5676 - val_loss: 1.0327 - val_accuracy: 0.5510
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0339 - accuracy: 0.5673 - val_loss: 1.0267 - val_accuracy: 0.5625
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0179 - accuracy: 0.5785 - val_loss: 1.0169 - val_accuracy: 0.5676
+Epoch 7/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0041 - accuracy: 0.5862 - val_loss: 1.0122 - val_accuracy: 0.5663
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 0.9931 - accuracy: 0.5817 - val_loss: 1.0178 - val_accuracy: 0.5587
+Epoch 9/10
+98/98 [==============================] - 1s 6ms/step - loss: 0.9797 - accuracy: 0.5893 - val_loss: 1.0221 - val_accuracy: 0.5663
+Epoch 10/10
+98/98 [==============================] - 0s 4ms/step - loss: 0.9703 - accuracy: 0.5916 - val_loss: 1.0154 - val_accuracy: 0.5612
+Trial 17 Complete [00h 00m 06s]
+val_accuracy: 0.5676020383834839
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 54s
+
+Search: Running Trial #18
+
+Value             |Best Value So Far |Hyperparameter
+2                 |2                 |mlp_layers
+8                 |24                |units_0
+False             |False             |dropout
+8                 |32                |units_1
+32                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 2.0134 - accuracy: 0.2195 - val_loss: 1.7696 - val_accuracy: 0.3227
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.6274 - accuracy: 0.3465 - val_loss: 1.4730 - val_accuracy: 0.4349
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3809 - accuracy: 0.4537 - val_loss: 1.2800 - val_accuracy: 0.4681
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2549 - accuracy: 0.4939 - val_loss: 1.1846 - val_accuracy: 0.5077
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1970 - accuracy: 0.5140 - val_loss: 1.1345 - val_accuracy: 0.5370
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1639 - accuracy: 0.5274 - val_loss: 1.1043 - val_accuracy: 0.5523
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1431 - accuracy: 0.5338 - val_loss: 1.0847 - val_accuracy: 0.5561
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1282 - accuracy: 0.5437 - val_loss: 1.0720 - val_accuracy: 0.5574
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1180 - accuracy: 0.5501 - val_loss: 1.0627 - val_accuracy: 0.5727
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1093 - accuracy: 0.5520 - val_loss: 1.0539 - val_accuracy: 0.5651
+Trial 18 Complete [00h 00m 05s]
+val_accuracy: 0.5727040767669678
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 01m 59s
+
+Search: Running Trial #19
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+24                |24                |units_0
+False             |False             |dropout
+48                |32                |units_1
+64                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 3ms/step - loss: 1.7168 - accuracy: 0.3874 - val_loss: 1.4197 - val_accuracy: 0.4656
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.3477 - accuracy: 0.4946 - val_loss: 1.2224 - val_accuracy: 0.5230
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2329 - accuracy: 0.5166 - val_loss: 1.1489 - val_accuracy: 0.5383
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1833 - accuracy: 0.5338 - val_loss: 1.1065 - val_accuracy: 0.5536
+Epoch 5/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1533 - accuracy: 0.5367 - val_loss: 1.0818 - val_accuracy: 0.5638
+Epoch 6/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.1322 - accuracy: 0.5482 - val_loss: 1.0648 - val_accuracy: 0.5663
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1166 - accuracy: 0.5434 - val_loss: 1.0533 - val_accuracy: 0.5702
+Epoch 8/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1041 - accuracy: 0.5434 - val_loss: 1.0452 - val_accuracy: 0.5702
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0946 - accuracy: 0.5517 - val_loss: 1.0386 - val_accuracy: 0.5727
+Epoch 10/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0866 - accuracy: 0.5517 - val_loss: 1.0357 - val_accuracy: 0.5753
+Trial 19 Complete [00h 00m 08s]
+val_accuracy: 0.5752550959587097
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 02m 07s
+
+Search: Running Trial #20
+
+Value             |Best Value So Far |Hyperparameter
+1                 |2                 |mlp_layers
+40                |24                |units_0
+False             |False             |dropout
+32                |32                |units_1
+56                |16                |units_2
+
+Epoch 1/10
+98/98 [==============================] - 1s 4ms/step - loss: 1.5074 - accuracy: 0.4362 - val_loss: 1.2671 - val_accuracy: 0.4974
+Epoch 2/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.2428 - accuracy: 0.5124 - val_loss: 1.1460 - val_accuracy: 0.5408
+Epoch 3/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1735 - accuracy: 0.5380 - val_loss: 1.1033 - val_accuracy: 0.5446
+Epoch 4/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1397 - accuracy: 0.5421 - val_loss: 1.0756 - val_accuracy: 0.5574
+Epoch 5/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1171 - accuracy: 0.5498 - val_loss: 1.0642 - val_accuracy: 0.5548
+Epoch 6/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.1024 - accuracy: 0.5523 - val_loss: 1.0502 - val_accuracy: 0.5612
+Epoch 7/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0900 - accuracy: 0.5609 - val_loss: 1.0417 - val_accuracy: 0.5587
+Epoch 8/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0802 - accuracy: 0.5571 - val_loss: 1.0378 - val_accuracy: 0.5561
+Epoch 9/10
+98/98 [==============================] - 0s 2ms/step - loss: 1.0718 - accuracy: 0.5667 - val_loss: 1.0347 - val_accuracy: 0.5574
+Epoch 10/10
+98/98 [==============================] - 0s 3ms/step - loss: 1.0648 - accuracy: 0.5635 - val_loss: 1.0340 - val_accuracy: 0.5599
+Trial 20 Complete [00h 00m 08s]
+val_accuracy: 0.5612244606018066
+
+Best val_accuracy So Far: 0.5905612111091614
+Total elapsed time: 00h 02m 15s

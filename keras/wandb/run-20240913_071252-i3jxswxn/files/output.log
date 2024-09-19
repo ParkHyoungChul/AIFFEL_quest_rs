@@ -1,0 +1,23 @@
+[31mERROR: Could not find a version that satisfies the requirement wandb.keras (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for wandb.keras[0m[31m
+[0mEpoch 1/10
+Epoch 1/10
+32/32 [==============================] - 0s 7ms/step - loss: 1.0040 - accuracy: 0.5920 - val_loss: 1.0813 - val_accuracy: 0.5415
+Epoch 2/10
+32/32 [==============================] - 0s 7ms/step - loss: 1.0368 - accuracy: 0.5680 - val_loss: 1.0806 - val_accuracy: 0.5380
+Epoch 3/10
+32/32 [==============================] - 0s 6ms/step - loss: 1.0163 - accuracy: 0.6040 - val_loss: 1.0798 - val_accuracy: 0.5415
+Epoch 4/10
+32/32 [==============================] - 0s 6ms/step - loss: 1.0111 - accuracy: 0.5850 - val_loss: 1.0805 - val_accuracy: 0.5401
+Epoch 5/10
+32/32 [==============================] - 0s 7ms/step - loss: 1.0267 - accuracy: 0.5800 - val_loss: 1.0809 - val_accuracy: 0.5374
+Epoch 6/10
+32/32 [==============================] - 0s 6ms/step - loss: 0.9986 - accuracy: 0.6000 - val_loss: 1.0800 - val_accuracy: 0.5408
+Epoch 7/10
+32/32 [==============================] - 0s 6ms/step - loss: 1.0174 - accuracy: 0.5740 - val_loss: 1.0814 - val_accuracy: 0.5401
+Epoch 8/10
+32/32 [==============================] - 0s 5ms/step - loss: 1.0244 - accuracy: 0.5780 - val_loss: 1.0816 - val_accuracy: 0.5370
+Epoch 9/10
+32/32 [==============================] - 0s 6ms/step - loss: 1.0196 - accuracy: 0.5790 - val_loss: 1.0794 - val_accuracy: 0.5391
+Epoch 10/10
+32/32 [==============================] - 0s 7ms/step - loss: 1.0383 - accuracy: 0.5610 - val_loss: 1.0788 - val_accuracy: 0.5387

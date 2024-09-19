@@ -1,0 +1,20 @@
+{"time":"2024-09-13T07:56:33.059054023Z","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-13T07:56:33.05909375Z","level":"INFO","msg":"created symlink","path":"/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075625-1gfsbv18/logs/debug-core.log"}
+{"time":"2024-09-13T07:56:33.059173484Z","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-13T07:56:33.059183566Z","level":"INFO","msg":"created symlink","path":"/aiffel/aiffel/AIFFEL_quest_rs/keras/wandb/run-20240913_075625-1gfsbv18/logs/debug-core.log"}
+{"time":"2024-09-13T07:56:33.062180731Z","level":"INFO","msg":"created new stream","id":"1gfsbv18"}
+{"time":"2024-09-13T07:56:33.062210037Z","level":"INFO","msg":"stream: started","id":"1gfsbv18"}
+{"time":"2024-09-13T07:56:33.062279997Z","level":"INFO","msg":"handler: started","stream_id":{"value":"1gfsbv18"}}
+{"time":"2024-09-13T07:56:33.062317425Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1gfsbv18"}}
+{"time":"2024-09-13T07:56:33.062412636Z","level":"INFO","msg":"sender: started","stream_id":{"value":"1gfsbv18"}}
+{"time":"2024-09-13T07:56:33.490699523Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-13T07:56:33.491632581Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-13T07:56:33.839726547Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-09-13T07:56:56.944281994Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-09-13T07:56:57.07740359Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-13T07:56:57.07760678Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-13T07:57:02.40257309Z","level":"INFO","msg":"stream: closing","id":"1gfsbv18"}
+{"time":"2024-09-13T07:57:02.402608772Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"1gfsbv18"}}
+{"time":"2024-09-13T07:57:02.402636319Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"1gfsbv18"}}
+{"time":"2024-09-13T07:57:02.402719057Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"1gfsbv18"}}
+{"time":"2024-09-13T07:57:02.4027353Z","level":"INFO","msg":"stream: closed","id":"1gfsbv18"}
